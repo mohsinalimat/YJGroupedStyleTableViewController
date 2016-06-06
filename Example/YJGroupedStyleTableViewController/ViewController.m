@@ -20,6 +20,11 @@
               @"CustomSettingBViewController"];
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [self.navigationController setNavigationBarHidden:NO animated:animated];
+}
+
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     Class cls = NSClassFromString(self.classNames[indexPath.row]);
     UIViewController *vc = [cls new];

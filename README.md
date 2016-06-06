@@ -7,9 +7,31 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Just create a subclass of YJGroupedStyleTableViewController. With very little code, you can easily create a customized group-style table view.
+
+This is a default style which is the same as iOS Settings App style.
+
+![](Default_style.png)
+
+<br>
+
+This is another demo style with all custom background colors and heights for cells, sections and separators. The table view also include a registered header class.
+
+![](Header_style.png)
+
+
+<br>
+
+This is another demo style with different cell style for each section, specified text for section footers. The demo also include a registered custom cell class.
+
+![](Custom_cell_style.png)
+
+
+<br>
 
 ## Requirements
+
+iOS 6+, ARC.
 
 ## Installation
 
