@@ -25,6 +25,6 @@ YJGroupedStyleTableViewController is a replacement for using iOS default grouped
   s.requires_arc = true
 
   s.source_files = 'YJGroupedStyleTableViewController/Classes/**/*'
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'YJGroupedStyleTableViewController/Classes/**/*.h'
 
 end
