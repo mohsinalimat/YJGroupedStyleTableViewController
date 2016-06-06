@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'YJGroupedStyleTableViewController'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A replacement for using iOS default grouped style table view.'
   s.description      = <<-DESC
 YJGroupedStyleTableViewController is a replacement for using iOS default grouped style table view for providing lots of customization.
@@ -21,7 +21,7 @@ YJGroupedStyleTableViewController is a replacement for using iOS default grouped
   s.source           = { :git => 'https://github.com/huang-kun/YJGroupedStyleTableViewController.git', :tag => s.version.to_s }
   s.social_media_url = 'http://weibo.com/u/5736413097'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '6.0'
   s.requires_arc = true
 
   s.source_files = 'YJGroupedStyleTableViewController/Classes/**/*'
