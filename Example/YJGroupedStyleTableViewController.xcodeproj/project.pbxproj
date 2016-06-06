@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		327062A11D05676800961473 /* CustomSettingAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 327062941D05676800961473 /* CustomSettingAViewController.m */; };
+		327062A21D05676800961473 /* CustomSettingBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 327062961D05676800961473 /* CustomSettingBViewController.m */; };
+		327062A31D05676800961473 /* DefaultSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 327062981D05676800961473 /* DefaultSettingViewController.m */; };
+		327062A41D05676800961473 /* DemoCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3270629A1D05676800961473 /* DemoCustomCell.m */; };
+		327062A51D05676800961473 /* DemoCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3270629B1D05676800961473 /* DemoCustomCell.xib */; };
+		327062A61D05676800961473 /* DemoHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3270629D1D05676800961473 /* DemoHeaderCell.m */; };
+		327062A71D05676800961473 /* DemoHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3270629E1D05676800961473 /* DemoHeaderCell.xib */; };
+		327062A81D05676800961473 /* EmptyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 327062A01D05676800961473 /* EmptyViewController.m */; };
+		327062AB1D05678300961473 /* YJGroupedStyleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 327062AA1D05678300961473 /* YJGroupedStyleTableViewController.m */; };
+		327062AE1D0567A000961473 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 327062AD1D0567A000961473 /* ViewController.m */; };
+		327062B01D05683A00961473 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 327062AF1D05683A00961473 /* LaunchScreen.storyboard */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* YJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* YJAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* YJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* YJViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -34,8 +44,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06DB2C1E4BA7AFDB4FD56750 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		23067582E43D6E39E3959077 /* YJGroupedStyleTableViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = YJGroupedStyleTableViewController.podspec; path = ../YJGroupedStyleTableViewController.podspec; sourceTree = "<group>"; };
+		06DB2C1E4BA7AFDB4FD56750 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		23067582E43D6E39E3959077 /* YJGroupedStyleTableViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YJGroupedStyleTableViewController.podspec; path = ../YJGroupedStyleTableViewController.podspec; sourceTree = "<group>"; };
+		327062931D05676800961473 /* CustomSettingAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSettingAViewController.h; sourceTree = "<group>"; };
+		327062941D05676800961473 /* CustomSettingAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSettingAViewController.m; sourceTree = "<group>"; };
+		327062951D05676800961473 /* CustomSettingBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSettingBViewController.h; sourceTree = "<group>"; };
+		327062961D05676800961473 /* CustomSettingBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSettingBViewController.m; sourceTree = "<group>"; };
+		327062971D05676800961473 /* DefaultSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultSettingViewController.h; sourceTree = "<group>"; };
+		327062981D05676800961473 /* DefaultSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultSettingViewController.m; sourceTree = "<group>"; };
+		327062991D05676800961473 /* DemoCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoCustomCell.h; sourceTree = "<group>"; };
+		3270629A1D05676800961473 /* DemoCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoCustomCell.m; sourceTree = "<group>"; };
+		3270629B1D05676800961473 /* DemoCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoCustomCell.xib; sourceTree = "<group>"; };
+		3270629C1D05676800961473 /* DemoHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoHeaderCell.h; sourceTree = "<group>"; };
+		3270629D1D05676800961473 /* DemoHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoHeaderCell.m; sourceTree = "<group>"; };
+		3270629E1D05676800961473 /* DemoHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoHeaderCell.xib; sourceTree = "<group>"; };
+		3270629F1D05676800961473 /* EmptyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyViewController.h; sourceTree = "<group>"; };
+		327062A01D05676800961473 /* EmptyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyViewController.m; sourceTree = "<group>"; };
+		327062A91D05678300961473 /* YJGroupedStyleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJGroupedStyleTableViewController.h; path = ../YJGroupedStyleTableViewController/Classes/YJGroupedStyleTableViewController.h; sourceTree = "<group>"; };
+		327062AA1D05678300961473 /* YJGroupedStyleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YJGroupedStyleTableViewController.m; path = ../YJGroupedStyleTableViewController/Classes/YJGroupedStyleTableViewController.m; sourceTree = "<group>"; };
+		327062AC1D0567A000961473 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		327062AD1D0567A000961473 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		327062AF1D05683A00961473 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YJGroupedStyleTableViewController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJGroupedStyleTableViewController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,8 +75,6 @@
 		6003F59B195388D20070C39A /* YJGroupedStyleTableViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YJGroupedStyleTableViewController-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* YJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* YJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* YJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* YJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* YJGroupedStyleTableViewController_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJGroupedStyleTableViewController_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -86,6 +113,8 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				327062A91D05678300961473 /* YJGroupedStyleTableViewController.h */,
+				327062AA1D05678300961473 /* YJGroupedStyleTableViewController.m */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for YJGroupedStyleTableViewController */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -119,9 +148,24 @@
 			children = (
 				6003F59C195388D20070C39A /* YJAppDelegate.h */,
 				6003F59D195388D20070C39A /* YJAppDelegate.m */,
+				327062AC1D0567A000961473 /* ViewController.h */,
+				327062AD1D0567A000961473 /* ViewController.m */,
+				327062931D05676800961473 /* CustomSettingAViewController.h */,
+				327062941D05676800961473 /* CustomSettingAViewController.m */,
+				327062951D05676800961473 /* CustomSettingBViewController.h */,
+				327062961D05676800961473 /* CustomSettingBViewController.m */,
+				327062971D05676800961473 /* DefaultSettingViewController.h */,
+				327062981D05676800961473 /* DefaultSettingViewController.m */,
+				327062991D05676800961473 /* DemoCustomCell.h */,
+				3270629A1D05676800961473 /* DemoCustomCell.m */,
+				3270629B1D05676800961473 /* DemoCustomCell.xib */,
+				3270629C1D05676800961473 /* DemoHeaderCell.h */,
+				3270629D1D05676800961473 /* DemoHeaderCell.m */,
+				3270629E1D05676800961473 /* DemoHeaderCell.xib */,
+				3270629F1D05676800961473 /* EmptyViewController.h */,
+				327062A01D05676800961473 /* EmptyViewController.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* YJViewController.h */,
-				6003F5A6195388D20070C39A /* YJViewController.m */,
+				327062AF1D05683A00961473 /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -222,7 +266,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "PROJECT" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "YJGroupedStyleTableViewController" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -246,9 +290,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				327062A71D05676800961473 /* DemoHeaderCell.xib in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				327062B01D05683A00961473 /* LaunchScreen.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				327062A51D05676800961473 /* DemoCustomCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,8 +315,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* YJAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* YJViewController.m in Sources */,
+				327062A31D05676800961473 /* DefaultSettingViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				327062A11D05676800961473 /* CustomSettingAViewController.m in Sources */,
+				327062AE1D0567A000961473 /* ViewController.m in Sources */,
+				327062AB1D05678300961473 /* YJGroupedStyleTableViewController.m in Sources */,
+				327062A21D05676800961473 /* CustomSettingBViewController.m in Sources */,
+				327062A41D05676800961473 /* DemoCustomCell.m in Sources */,
+				327062A81D05676800961473 /* EmptyViewController.m in Sources */,
+				327062A61D05676800961473 /* DemoHeaderCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +446,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YJGroupedStyleTableViewController/YJGroupedStyleTableViewController-Prefix.pch";
 				INFOPLIST_FILE = "YJGroupedStyleTableViewController/YJGroupedStyleTableViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -407,6 +462,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YJGroupedStyleTableViewController/YJGroupedStyleTableViewController-Prefix.pch";
 				INFOPLIST_FILE = "YJGroupedStyleTableViewController/YJGroupedStyleTableViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -459,7 +515,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "PROJECT" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "YJGroupedStyleTableViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,

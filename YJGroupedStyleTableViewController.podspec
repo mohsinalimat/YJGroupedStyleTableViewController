@@ -7,36 +7,24 @@
 #
 
 Pod::Spec.new do |s|
+
   s.name             = 'YJGroupedStyleTableViewController'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of YJGroupedStyleTableViewController.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.summary          = 'A replacement for using iOS default grouped style table view.'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+YJGroupedStyleTableViewController is a replacement for using iOS default grouped style table view for providing lots of customization.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/YJGroupedStyleTableViewController'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/huang-kun/YJGroupedStyleTableViewController'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'huang-kun' => 'jack-huang-developer@foxmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/YJGroupedStyleTableViewController.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/huang-kun/YJGroupedStyleTableViewController.git', :tag => s.version.to_s }
+  s.social_media_url = 'http://weibo.com/u/5736413097'
 
-  s.ios.deployment_target = '8.0'
+  s.platform     = :ios, '7.0'
+  s.requires_arc = true
 
   s.source_files = 'YJGroupedStyleTableViewController/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'YJGroupedStyleTableViewController' => ['YJGroupedStyleTableViewController/Assets/*.png']
-  # }
+  s.public_header_files = 'Pod/Classes/**/*.h'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
