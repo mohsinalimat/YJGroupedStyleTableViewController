@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YJGroupedStyleTableViewController_Example' do
+  pod 'YJGroupedStyleTableViewController', :path => '../'
+
+  target 'YJGroupedStyleTableViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
